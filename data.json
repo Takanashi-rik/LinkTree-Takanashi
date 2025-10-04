@@ -1,0 +1,92 @@
+{
+    "profile": {
+        "name": "Takanashi",
+        "bio": "This website aims to introduce Takanashi, the creator of Alight Motion presets and the creator of this website! Hello, I'm Takanashi, thank you for visiting this website.",
+        "image": "https://files.catbox.moe/rg826a.jpg"
+    },
+    "links": [
+        {
+            "title": "YouTube Me",
+            "url": "https://youtube.com/Takanashi",
+            "icon": "fab fa-youtube"
+        },
+        {
+            "title": "Website Me",
+            "url": "https://api-takanashi.vercel.app",
+            "icon": "fas fa-globe"
+        },
+        {
+            "title": "TikTok Me",
+            "url": "https://tiktok.com/@takanashi",
+            "icon": "fab fa-tiktok"
+        },
+        {
+            "title": "Telegram Me",
+            "url": "https://t.me/Takanashi_Dev",
+            "icon": "fa-brands fa-telegram"
+        },
+        {
+            "title": "WhatsApp Me",
+            "url": "https://wa.me/6283830068652?text=halo+bang",
+            "icon": "fa-brands fa-whatsapp"
+        },
+        {
+            "title": "WhatsApp Channel",
+            "url": "https://whatsapp.com/channel/0029VbAbQrtEwEjslE9LaB3e",
+            "icon": "fa-brands fa-whatsapp"
+        },
+        {
+            "title": "WhatsApp Channel 2",
+            "url": "https://whatsapp.com/channel/0029VbAifrKEAKWAguzR7g0S",
+            "icon": "fa-brands fa-whatsapp"
+        },
+        {
+            "title": "GitHub Me",
+            "url": "https://github.com/Takanashi-rik",
+            "icon": "fab fa-github"
+        }
+    ],
+    "music": {
+        "title": "Alone",
+        "artist": "Marshmello",
+        "albumArt": "https://files.catbox.moe/zfvziw.jpg",
+        "audioFile": "https://redirector.googlevideo.com/videoplayback?expire=1759573748&ei=lKLgaP3SJ8ebhcIPgYTE0Q8&ip=176.6.129.95&id=o-ABfrnMgGsh1Lv6zecGJ3H-3W_n7iKV12Ph8uoj4o8kAX&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1759552148%2C&mh=Jf&mm=31%2C29&mn=sn-uxax4vopj5qx-cxgd%2Csn-4g5ednks&ms=au%2Crdu&mv=m&mvi=2&pl=24&rms=au%2Cau&initcwndbps=2016250&bui=ATw7iSWd4noG0qxUdkNxt6l_OS6E8uCXyYhvp3qvhfxblspZ1BjodTiCTTdjRWrvAlc8ZuWIX8QUwmmQ&spc=hcYD5dq11rjRGSn7AdrcQiWWuouGs8waFF-IAgSTYGdRwfhsDPUebwTd_T1IJfZ09fJSJ8R4bMODLt9MmtDRz3EF&vprv=1&svpuc=1&mime=audio%2Fmp4&ns=O0RanDaE0X2En9P5j_LbPZUQ&rqh=1&gir=yes&clen=3229536&dur=199.505&lmt=1713772135245548&mt=1759551433&fvip=4&keepalive=yes&fexp=51331020%2C51552689%2C51565116%2C51565682%2C51580968&c=MWEB&sefc=1&txp=4532434&n=ImVZzoJ0zotCJA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAItKOuy9Uz8zM1bxXguWLsWo0W1kcHqkX7WEKh5_Tbx2AiAN5iW3YSpiPeUNLOT_-9cwTvB4GI7bTVSKF24y5GKVyg%3D%3D&sig=AJfQdSswRAIgKA4_f08bJF6ehJYSl0nwXpjk8r2WD2nqaQc3EbfqqvACIEi1mzlyJpvWCCm4Bfmug9rnLsR9sWDeLMnK1C0IGLgK&pot=MnYVU1wkVzNH7xVtlB3FRhXGl1KlL-DvMGv4HNShIODZVtfFcB8QGWZU-xsoRxmkeY15XE4Ig8HgLilhfS1AtxwA_TIL9qImqVJGhV1p1rn2uol3Q0ep4VV51WsI4KAHSe7vR7FBfjUn-oc1vL0MHKCOk_M6d9W6",
+        "duration": 214,
+        "timeSync": [
+            { "time": 0, "text": "🎵 Intro music..." },
+            { "time": 5, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 10, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
+            { "time": 17, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 22, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
+            { "time": 30, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
+            { "time": 34, "text": "I'm on my own.\nAku sendirian." },
+            { "time": 38, "text": "I'm so alone...\nAku sangat sendirian..." },
+            { "time": 46, "text": "🎵 Instrumental drop..." },
+            { "time": 62, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 66, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
+            { "time": 70, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 74, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
+            { "time": 78, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
+            { "time": 82, "text": "I'm on my own.\nAku sendirian." },
+            { "time": 86, "text": "I'm so alone...\nAku sangat sendirian..." },
+            { "time": 94, "text": "🎵 Instrumental drop..." },
+            { "time": 126, "text": "You said you'd be here in the end,\nKau bilang kau akan ada di sini pada akhirnya," },
+            { "time": 130, "text": "But I'm alone again.\nTapi aku sendirian lagi." },
+            { "time": 134, "text": "You said you'd be here in the end,\nKau bilang kau akan ada di sini pada akhirnya," },
+            { "time": 138, "text": "But I'm alone again.\nTapi aku sendirian lagi." },
+            { "time": 142, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
+            { "time": 146, "text": "I'm on my own.\nAku sendirian." },
+            { "time": 150, "text": "I'm so alone...\nAku sangat sendirian..." },
+            { "time": 158, "text": "🎵 Instrumental drop..." },
+            { "time": 174, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 178, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
+            { "time": 182, "text": "I'm so alone,\nAku sangat sendirian," },
+            { "time": 186, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
+            { "time": 190, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
+            { "time": 194, "text": "I'm on my own.\nAku sendirian." },
+            { "time": 198, "text": "I'm so alone...\nAku sangat sendirian..." },
+            { "time": 206, "text": "🎵 Outro music..." },
+            { "time": 213, "text": "Marshmello..." }
+        ]
+    }
+}
