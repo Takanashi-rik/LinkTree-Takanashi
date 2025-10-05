@@ -53,40 +53,142 @@
         "audioFile": "https://s17.aconvert.com/convert/p3r68-cdx67/m1l9w-uo8yd.mp3",
         "duration": 214,
         "timeSync": [
-            { "time": 0, "text": "🎵 Intro music..." },
-            { "time": 5, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 10, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
-            { "time": 17, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 22, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
-            { "time": 30, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
-            { "time": 34, "text": "I'm on my own.\nAku sendirian." },
-            { "time": 38, "text": "I'm so alone...\nAku sangat sendirian..." },
-            { "time": 46, "text": "🎵 Instrumental drop..." },
-            { "time": 62, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 66, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
-            { "time": 70, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 74, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
-            { "time": 78, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
-            { "time": 82, "text": "I'm on my own.\nAku sendirian." },
-            { "time": 86, "text": "I'm so alone...\nAku sangat sendirian..." },
-            { "time": 94, "text": "🎵 Instrumental drop..." },
-            { "time": 126, "text": "You said you'd be here in the end,\nKau bilang kau akan ada di sini pada akhirnya," },
-            { "time": 130, "text": "But I'm alone again.\nTapi aku sendirian lagi." },
-            { "time": 134, "text": "You said you'd be here in the end,\nKau bilang kau akan ada di sini pada akhirnya," },
-            { "time": 138, "text": "But I'm alone again.\nTapi aku sendirian lagi." },
-            { "time": 142, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
-            { "time": 146, "text": "I'm on my own.\nAku sendirian." },
-            { "time": 150, "text": "I'm so alone...\nAku sangat sendirian..." },
-            { "time": 158, "text": "🎵 Instrumental drop..." },
-            { "time": 174, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 178, "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah." },
-            { "time": 182, "text": "I'm so alone,\nAku sangat sendirian," },
-            { "time": 186, "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu." },
-            { "time": 190, "text": "But now you're gone,\nTapi sekarang kau telah pergi," },
-            { "time": 194, "text": "I'm on my own.\nAku sendirian." },
-            { "time": 198, "text": "I'm so alone...\nAku sangat sendirian..." },
-            { "time": 206, "text": "🎵 Outro music..." },
-            { "time": 213, "text": "Marshmello..." }
+            {
+                "time": 0,
+                "text": "🎵 Instrumental Intro..."
+            },
+            {
+                "time": 5,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 10,
+                "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah."
+            },
+            {
+                "time": 17,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 22,
+                "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu."
+            },
+            {
+                "time": 30,
+                "text": "But now you're gone,\nTapi sekarang kau telah pergi,"
+            },
+            {
+                "time": 34,
+                "text": "I'm on my own.\nAku sendirian."
+            },
+            {
+                "time": 38,
+                "text": "I'm so alone...\nAku sangat sendirian..."
+            },
+            {
+                "time": 46,
+                "text": "🎵 Drop..."
+            },
+            {
+                "time": 62,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 66,
+                "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah."
+            },
+            {
+                "time": 70,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 74,
+                "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu."
+            },
+            {
+                "time": 78,
+                "text": "But now you're gone,\nTapi sekarang kau telah pergi,"
+            },
+            {
+                "time": 82,
+                "text": "I'm on my own.\nAku sendirian."
+            },
+            {
+                "time": 86,
+                "text": "I'm so alone...\nAku sangat sendirian..."
+            },
+            {
+                "time": 94,
+                "text": "🎵 Instrumental Drop..."
+            },
+            {
+                "time": 126,
+                "text": "You said you'd be there for me,\nKau bilang kau akan ada untukku,"
+            },
+            {
+                "time": 130,
+                "text": "But now I'm all alone.\nTapi sekarang aku benar-benar sendirian."
+            },
+            {
+                "time": 134,
+                "text": "You said you'd be there for me,\nKau bilang kau akan ada untukku,"
+            },
+            {
+                "time": 138,
+                "text": "But now I'm all alone.\nTapi sekarang aku benar-benar sendirian."
+            },
+            {
+                "time": 142,
+                "text": "But now you're gone,\nTapi sekarang kau telah pergi,"
+            },
+            {
+                "time": 146,
+                "text": "I'm on my own.\nAku sendirian."
+            },
+            {
+                "time": 150,
+                "text": "I'm so alone...\nAku sangat sendirian..."
+            },
+            {
+                "time": 158,
+                "text": "🎵 Drop..."
+            },
+            {
+                "time": 174,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 178,
+                "text": "Nothing feels like home.\nTidak ada yang terasa seperti rumah."
+            },
+            {
+                "time": 182,
+                "text": "I'm so alone,\nAku sangat sendirian,"
+            },
+            {
+                "time": 186,
+                "text": "Trying to find my way back home to you.\nMencari jalan pulang kembali padamu."
+            },
+            {
+                "time": 190,
+                "text": "But now you're gone,\nTapi sekarang kau telah pergi,"
+            },
+            {
+                "time": 194,
+                "text": "I'm on my own.\nAku sendirian."
+            },
+            {
+                "time": 198,
+                "text": "I'm so alone...\nAku sangat sendirian..."
+            },
+            {
+                "time": 206,
+                "text": "🎵 Outro music..."
+            },
+            {
+                "time": 213,
+                "text": "Marshmello..."
+            }
         ]
     }
 }
