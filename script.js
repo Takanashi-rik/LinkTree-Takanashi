@@ -25,6 +25,33 @@ const welcomePanel = document.getElementById('welcomePanel');
 const welcomeCloseBtn = document.getElementById('welcomeCloseBtn');
 const audioPlayer = document.getElementById('audioPlayer');
 
+// Theme toggle functionality
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+const body = document.body;
+
+// Check for saved theme preference or default to light
+const currentTheme = localStorage.getItem('theme') || 'light';
+body.setAttribute('data-theme', currentTheme);
+updateThemeIcon(currentTheme);
+
+function updateThemeIcon(theme) {
+    if (theme === 'dark') {
+        themeIcon.className = 'fas fa-sun';
+    } else {
+        themeIcon.className = 'fas fa-moon';
+    }
+}
+
+themeToggle.addEventListener('click', () => {
+    const currentTheme = body.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    body.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+});
+
 function checkWelcomePanel() {
     const lastVisit = localStorage.getItem('lastVisit');
     const currentTime = new Date().getTime();

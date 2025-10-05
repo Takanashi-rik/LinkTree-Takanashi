@@ -1,6 +1,7 @@
 :root {
     --bg-color: #f5f5f5;
     --text-color: #333;
+    --text-color-rgb: 51, 51, 51;
     --link-bg: #ffffff;
     --link-hover: #f0f0f0;
     --link-shadow: rgba(0, 0, 0, 0.1);
@@ -10,6 +11,18 @@
     --transition-speed: 0.4s;
 }
 
+/* Dark Theme Variables */
+[data-theme="dark"] {
+    --bg-color: rgba(10, 10, 20, 0.95);
+    --text-color: #e0e0ff;
+    --text-color-rgb: 224, 224, 255;
+    --link-bg: rgba(30, 15, 60, 0.8);
+    --link-hover: rgba(50, 20, 80, 0.9);
+    --link-shadow: rgba(139, 0, 255, 0.3);
+    --music-bg: rgba(20, 10, 40, 0.9);
+    --primary-color: #ff0066; /* Neon merah tua */
+    --secondary-color: #6600ff; /* Neon ungu tua */
+}
 
 * {
     margin: 0;
@@ -27,6 +40,95 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all var(--transition-speed) ease;
+    z-index: 1001;
+}
+
+.theme-toggle:hover {
+    transform: rotate(30deg) scale(1.1);
+    background: var(--secondary-color);
+}
+
+/* Dark Theme Specific Styles */
+[data-theme="dark"] body {
+    background: linear-gradient(135deg, #0a0a14 0%, #1a0a2a 100%);
+}
+
+[data-theme="dark"] .profile-pic-container::before {
+    background: linear-gradient(45deg, #ff0066, #6600ff, #0066ff);
+    animation: rotate 6s linear infinite;
+}
+
+[data-theme="dark"] .link-item {
+    border: 1px solid rgba(102, 0, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(102, 0, 255, 0.2), 
+                0 0 20px rgba(255, 0, 102, 0.1) inset;
+}
+
+[data-theme="dark"] .link-item:hover {
+    box-shadow: 0 6px 20px rgba(102, 0, 255, 0.4), 
+                0 0 30px rgba(255, 0, 102, 0.2) inset;
+    border: 1px solid rgba(255, 0, 102, 0.5);
+}
+
+[data-theme="dark"] .music-player {
+    border: 1px solid rgba(102, 0, 255, 0.4);
+    box-shadow: 0 8px 25px rgba(102, 0, 255, 0.3);
+}
+
+[data-theme="dark"] .progress-bar {
+    background: linear-gradient(to right, #ff0066, #6600ff);
+    box-shadow: 0 0 10px rgba(255, 0, 102, 0.5);
+}
+
+[data-theme="dark"] .lyrics-line.active {
+    color: #ff0066;
+    text-shadow: 0 0 10px rgba(255, 0, 102, 0.7);
+}
+
+[data-theme="dark"] .welcome-content {
+    background: linear-gradient(135deg, #1a0a2a 0%, #0a0a14 100%);
+    color: #e0e0ff;
+    border: 1px solid rgba(102, 0, 255, 0.3);
+}
+
+[data-theme="dark"] .welcome-content p {
+    color: #b8b8ff;
+}
+
+/* Neon glow animation */
+@keyframes neonPulse {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(255, 0, 102, 0.5),
+                    0 0 10px rgba(102, 0, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(255, 0, 102, 0.8),
+                    0 0 25px rgba(102, 0, 255, 0.5);
+    }
+}
+
+[data-theme="dark"] .theme-toggle {
+    animation: neonPulse 3s infinite;
 }
 
 /* Container */
@@ -166,7 +268,7 @@ body {
     bottom: 20px;
     right: 20px;
     background-color: var(--music-bg);
-    border-radius: a5px;
+    border-radius: 15px;
     padding: 12px;
     width: 320px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -298,7 +400,6 @@ body {
     color: var(--primary-color);
     opacity: 1;
 }
-
 
 /* Lyrics animation */
 .lyrics-fade-in {
@@ -459,6 +560,14 @@ body {
 
 /* MOBILE RESPONSIVENESS IMPROVEMENTS */
 @media (max-width: 768px) {
+    .theme-toggle {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        top: 15px;
+        right: 15px;
+    }
+    
     .music-player {
         width: calc(100% - 30px);
         right: 15px;
@@ -511,6 +620,14 @@ body {
 }
 
 @media (max-width: 480px) {
+    .theme-toggle {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        top: 10px;
+        right: 10px;
+    }
+    
     body {
         padding: 20px 15px;
     }
